@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------
+						FACTORY DESIGN PATTERN
+-------------------------------------------------------------------------
+
+CATEGORY:
+	FACTORY / FACTORY METHOD Design Pattern is a CREATIONAL DESIGN Pattern.
+
+Definition:
+	Creating objects based on condition is done with Factory design pattern
+	Used when all the object creation and its business logic we need to keep at one place
+
+Diagram:
+	Client --has a--> Notification Factory --has a--> INotification <--is a-- EmailNotification
+																	<--is a-- SMSNotification	
